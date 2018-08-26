@@ -1,3 +1,6 @@
+# tooked notes
+A classe hero.ts é usada pelo mock-heroes para simular o retorno de uma consulta à API, gerando um array de hero. Este é usado em um serviço(HeroService) que é provido para toda a aplicação(provideIn: 'root'), usando assim Dependency Injection(DI), que é injetado no componente hero(HeroComponent) em seu método construtor, através de um método encapsulado(getHeroes()), por fim sendo renderizado na view usando ngFor em uma lista não ordenada, através da diretiva <app-heroes>.
+
 # AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
